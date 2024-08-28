@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*encabezado*/
+section#superior{
+    background: rgb(185, 45, 45);
+    height: 465px;
+}
+header#cabecera{
+    display: block;
+    margin: auto;
+    width: 940px;
+    height: 98px;
+}
+#cabecera ul{
+    float: right;
+    list-style: none;
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    height: 65px;
+    width: 175px;
+}
+#cabecera ul li{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 45px;
+    width: 45px;
+}
+div#logo{
+    float: left;
+    height: 85px;
+    margin-top: 25px;
+    width: 188px;
+}
+/*menu*/
+nav{
+    background: rgb(71, 1, 1);
+    display: block;
+    height: 45px;
+    margin: auto;
+    padding: 0;
+    width: 940px;
+}
+nav ul{
+    display: block;
+    float: left;
+    list-style: none;
+}
+nav li{
+    float: left;
+}
+nav a{
+    color:white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    height: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover, a:focus{
+    background: #B7D068;
+    color: #000;
+}
+#slider{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 295px;
+    width: 940px;
+}
+section#contenedor{
+    background: rgb(28, 1, 80);
+}
+section#contenedorinterior{
+    background:rgb(37, 12, 78);
+    display: block;
+    margin: auto;
+    width: 940px;
+}
+section#contenido{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 700px;
+}
+.info{
+    background:rgb(87, 2, 136);
+    border:1px solid #50057c;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    float: left;
+    padding: 0;
+    width: 700px;
+}
+aside{
+    display: block;
+    float: right;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 230px;
+    background: #660335;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #d81143;
+    padding: 10px;
+}
+h3{
+    background: #3a37f7;
+    color: #fff;
+    vertical-align: middle;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+}
+h4{
+background: #bab7b2;
+vertical-align: middle;
+padding-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+height: 35px;
+text-align: center;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+p{
+    color: #31313F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.info p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+#limpiar{
+    clear: both;
+}
+.info img{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.info p{
+    display: block;
+    width: 460px;
+    float: right;
+}
+.comoempresa{
+    width: 700px;
+    display: block;
+    float: left;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#32323f;
+}
+.color{
+    background-color: #A8A8B7;
+}
+section#inferior{
+    background: #640b22;
+}
+footer{
+    display: block;
+    margin: auto;
+    height: 130px;
+    width: 940px;
+}
+#infocontacto{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-top: 35px;
+    text-align: left;
+    width: 300px;
+}
+
+#powered{
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+display: block;
+float: right;
+margin-top: 35px;
+text-align: right;
+width: 300px;
+}
+h1{
+    color: #858593;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#proyectos{
+    display: block;
+    margin: auto;
+    float: left;
+    width: 320px;
+}
+#proyectos p{
+    width: 300px;
+    text-align: justify;
+}
+#imgproyectos img{
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 358px;
+}
+.proyectosm{
+    display: inline-block;
+    width: 230px;
+}
+.proyectosm p{
+    width: 210px;
+}
+.proyectosm h6{
+    margin-left: 10px;
+}
+
+.datacontacto p{
+    padding:0px ;
+    margin: 10px;
+    width: 675px;
+}
+form{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 565px;
+}
+label{
+    color: #040404;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+input{
+    width: 480px;
+    height: 20px;
+    border: 2px solid #060606;
+    margin-top: 5px;
+    font-size: 14px;
+}
+textarea{
+    width: 480px;
+    height: 142px;
+    border: 2px solid #101010fc;
+    margin-top: 5px;
+    font-size: 14px;
+}
+#boton{
+    background: #f5f5f5;
+    border-color: #CCC;
+    border-radius: 5px;
+    height: 31px;
+    width: 91px;
+ 
+}
